@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon_clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar"> 
+            <div class="nav-logo border">
+                <div class="logo">
+
+                </div>
+
+            </div>
+            <div class="nav-adress border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="country-ing" >
+             <div class="country-icon">
+                <select class="country">
+                    <option>EN</option>
+                </select>
+                </div>
+            </div>
+            <div class="nav-singin border">
+            <p><span>Hello, Sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+
+         <div class="nav-cart border">
+            <i class="fa-solid fa-cart-arrow-down"></i>
+           cart
+        </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shops deals in Electronics
+            </div>       
+         </div>
+        
+    </header>
+
+<div class="hero-slider">
+    <!-- <div class="hero-mess">
+        <p>You are on amazon.com,You can also shop on Amazon India for millions of products with fast local delivery<a>Click here to go to amazon.in</a></p>
+    </div> -->
+    <ul>
+       <button class="prev" onclick="prevSlide()">❮</button>
+
+
+       <img id="hero-img" src="box1.png">
+       <img id="hero-img" src="box2.png">
+       <img id="hero-img" src="box3.png">
+       <img id="hero-img" src="box4.png">
+
+
+       <button class="next" onclick="nextSlide()">❯</button>
+
+    </ul>
+</div>
+<script src="script.js"></script>
+
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2> Appliances for your home | Up to 55% off</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="pic_1.jpg" alt="AC">
+                    <p>Air Conditioners</p>
+                </div>
+                <div class="item">
+                    <img src="pic_1_2.jpg" alt="fridge">
+                    <p>Refrigerators</p>
+                </div>
+                <div class="item">
+                    <img src="pic_1_3.jpg" alt="Microwave">
+                    <p>Microwave</p>
+                </div>
+                <div class="item">
+                    <img src="pic_1-4.jpg" alt="Washing Machine">
+                    <p>Washing Machine</p>
+                </div>
+            </div>
+        </div>
+            <p class="see more">See more</p>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                 <h2>Revamp your home in style</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="pic_2.jpg" alt="badsheets">
+                    <p>Cushion covers,bedsheets & more</p>
+                </div>
+                <div class="item">
+                    <img src="pic_2_2.jpg" alt="Figurines">
+                    <p>Figurines,vases & more</p>
+                </div>
+                <div class="item">
+                    <img src="pic_2_3.jpg" alt="Home storage">
+                    <p>Home storage</p>
+                </div>
+                <div class="item">
+                    <img src="pic_2_4.jpg" alt="Lighting solutions">
+                    <p>Lighting solutions</p>
+               </div>
+            </div>
+            </div>
+            <p class="see more">See more</p>
+        </div>
+        <div class="box3 box">
+             <div class="box-content">
+                <h2>Starting ₹49 | Deals on home essentials</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="pic_3_1.jpg" alt="Cleaning supplies">
+                    <p>Cleaning supplies</p>
+                </div>
+                <div class="item">
+                    <img src="pic_3_2 - Copy.png" alt="Bathroom accessories">
+                    <p>Bathroom accessories</p>
+                </div>
+                <div class="item">
+                    <img src="pic_3_3.jpg" alt="Home tools">
+                    <p>Home tools</p>
+                </div>
+                <div class="item">
+                    <img src="pic_3_4.jpg" alt="Wallpapers">
+                    <p>Wallpapers</p>
+             </div>
+            </div>
+            </div>
+            <p class="see more">See more</p>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Starting ₹199 | Amazon Brands & more</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="pic_4.jpg" alt="Starting ₹199 | Badsheets">
+                    <p>Starting ₹199 | Bedsheets</p>
+                </div>
+                <div class="item">
+                    <img src="pic_4_2.jpg" alt="Curtains">
+                    <p>Starting ₹199 | Curtains</p>
+                </div>
+                <div class="item">
+                    <img src="pic_4_3.jpg" alt="Ironing board">
+                    <p>Minimum 40% off | Ironing board & more</p>
+                </div>
+                <div class="item">
+                    <img src="pic_4_4.jpg" alt="Home decor">
+                    <p>Up to 60% off | Home decor</p>
+                </div>
+            </div>
+            </div>
+            <p class="see more">See more</p>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Bulk order discounts + 10% Guaranteed cashback</h2>
+                <div class="grid">
+                    <div class="item">
+                        <img src="ph_6.jpg" alt="Electronic and accessories">
+                        <p>Electronic and accessories</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_6_2.jpg" alt="Home Appliances">
+                        <p>Home Appliances</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_6_3.jpg" alt="Industrial supplies"> 
+                        <p>Industrial supplies</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_6_4.jpg" alt="Register using GST,Udyam,FSSAI or BPAN">
+                        <p>Register using GST,Udyam,FSSAI or BPAN</p>
+                    </div>
+                </div>
+            </div>
+            <p class="add">Create a free account</p>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>Automotive essentials | Up to 60% off</h2>
+                <div class="grid">
+                    <div class="item">
+                        <img src="ph_7.jpg" alt="Cleaning accessories">
+                        <p>Cleaning accessories</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_7_1.jpg" alt="Tyre and rim care">
+                        <p>Tyre and rim care</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_7_3.jpg" alt="Helmets"> 
+                        <p>Helmets</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_7_4.jpg" alt="Vaccum cleaner">
+                        <p>Vaccum cleaner</p>
+                    </div>
+                </div>
+            </div>
+            <p class="see more">See more</p>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Up to 50% off | Baby care & toys | Amazon Brands</h2>
+                <div class="grid">
+                    <div class="item">
+                        <img src="ph_8.jpg" alt="baby care">
+                        <p>Up to 50% off | Baby diaper and wioes </p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_8_2.jpg" alt="ride ons">
+                        <p>Up to 50% off | ride ons</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_8_3.jpg" alt="RC cars"> 
+                        <p>Starting ₹649 |RC cars</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_8_4.jpg" alt="baby care essentials">
+                        <p>Up to 50% off | baby care essentials</p>
+                    </div>
+                </div>
+            </div>
+            <p class="see more">See all offers</p>
+        </div>
+        <div class="box9 box">
+             <div class="box-content">
+                <h2> Up to 60% off | Essentials for Expecting Mothers</h2>
+                <div class="grid">
+                    <div class="item">
+                        <img src="ph_9.jpg" alt="Pregnancy supplements">
+                        <p>Pregnancy supplements </p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_9_2.jpg" alt="Maternity sleep & longwear">
+                        <p>Maternity sleep & longwear</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_9_3.jpg" alt="Maternity Pillow"> 
+                        <p>Maternity Pillow</p>
+                    </div>
+                    <div class="item">
+                        <img src="ph_9_4.jpg" alt="Maternity  skin care">
+                        <p>Maternity skin care</p>
+                    </div>
+                </div>
+            </div>
+            <p class="see more">See more</p>
+        </div>
+
+        <!-- <div class="shop-section">
+            <div class="pro_1 box">
+                <div class="box-content">
+                <h2>Essentials for Expecting Mothers</h2>
+                 <div class="grid"> -->
+                    <!-- <div class="item">
+                        <img src="ph_9.jpg" alt="Pregnancy supplements">
+                        <p>Pregnancy supplements </p>
+                    </div>
+                 </div> 
+            </div>
+            </div> -->
+        </div>
+                
+
+</div>
+ <div class="product-slider">
+            <h2>Up to 45% off | Electronics & accessories</h2>
+
+
+    <div class="products" id="slider">
+        <img src="pt_1.jpg">
+        <img src="pt_2.jpg">
+        <img src="pt_3.jpg">
+        <img src="pt_4.jpg">
+        <img src="pt_5.jpg">
+        <img src="pt_6.jpg">
+        <img src="pt_7.jpg">
+        <img src="pt_8.jpg">
+        <img src="pt_9.jpg">
+        <img src="pt_10.jpg">
+        <img src="pt_11.jpg">
+        <img src="pt_12.jpg">
+        <img src="pt_13.jpg">
+        <img src="pt_15.jpg">
+        <img src="pt_16.jpg">
+        <img src="pt_17.jpg">
+        <img src="pt_18.jpg">
+    </div>
+    <p class="see more">See more</p>
+    </div>
+
+
+    <div class="product-slider">
+            <h2>Most Undrerated Bikes | With amazing looks</h2>
+
+    <!-- <button class="slide-btn left1" onclick="scrollLeftBtn()">❮</button> -->
+
+    <div class="products" id="slider">
+        <!-- <button class="prev1" onclick="prevSlide()">❮</button> -->
+
+
+        <img id="pro-img" src="b1.jpg">
+        <img id="pro-img" src="b3.jpg">
+        <img id="pro-img" src="b5.jpg">
+        <img id="pro-img" src="b6.jpg">
+        <img id="pro-img" src="b7.jpg">
+        <img id="pro-img" src="b8.jpg">
+        <img id="pro-img" src="b10.jpg">
+        <img id="pro-img" src="b11.jpg">
+        <img id="pro-img" src="b12.jpg">
+
+        <!-- <button class="next1" onclick="nextSlide()">❯</button> -->
+    </div>
+    <!-- <button class="slide-btn right" onclick="scrollRightBtn()">❯</button> -->
+    <p class="see more">See more</p>
+    </div>
+
+    
+
+<div class="box-row ">
+    <div class="box-col">
+        <h3>Get your game on</h3>
+        <img id="box-img" src="p1.jpg" alt="">
+        <a href="/">Shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Best Sellers in Computers  Accessories</h3>
+        <img id="box-img" src="p2.jpg" alt="">
+        <a href="/">Shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Up to 45% off | Charge Your Day with PHILIPS Power Bank</h3>
+        <img id="box-img" src="P1_2.jpg" alt="">
+        <a href="/">Shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Up to 60% off | Electronics & accessories</h3>
+        <img id="box-img" src="P1_3.jpg" alt="">
+        <a href="/">Shop more</a>
+    </div>
+</div>
+<div class="product-slider">
+            <h2>Best Sellers in Books</h2>
+
+    <!-- <button class="slide-btn left1" onclick="scrollLeftBtn()">❮</button> -->
+
+    <div class="products" id="slider">
+        <img src="bo1.jpg">
+        <img src="bo2.jpg">
+        <img src="bo3.jpg">
+        <img src="bo4.jpg">
+        <img src="bo5.jpg">
+        <img src="bo1.jpg">
+        <img src="bo7.jpg">
+        <img src="bo8.jpg">
+        <img src="bo9.jpg">
+        <img src="bo11.jpg">
+        <img src="bo12.jpg">
+        <img src="bo13.jpg">
+        <img src="bo14.jpg">
+        <img src="bo15.jpg">
+        <img src="bo16.jpg">
+        <img src="bo17.jpg">
+    </div>
+    
+    <p class="see more">See more</p>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+
+            <ul>
+                <p>Connect with US</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a> Supply to Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Fulfilment by Amazon</a>
+                <a>Advertise Your Products</a>
+                <a>Amazon Pay onn Merchants</a>
+            </ul>
+
+            <ul>
+                <p>let Us Help You</p>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a>Recalls and Product Safety Alerts</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel5">
+            <ul>
+                <a style="color: white; font-size: 0.85rem;">AbeBooks</a>
+                <a>Books,art <br>& collections</a>
+                <a  style="color: white; font-size: 1rem;">Shopbop</a>
+                <a>Desiner <br>Fashion Brands</a>
+            </ul>
+
+             <ul>
+                <a style="color: white; font-size: 0.85rem;">Amazon Wed Services</a>
+                <a>Scalable Cloud <br>Computing Services</a>
+                <a style="color: white; font-size: 1rem;"> Amazon Business</a>
+                <a>Everything For <br>Your Business</a>
+            </ul>
+
+             <ul>
+                <a style="color: white; font-size: 0.85rem;">Audible</a>
+                <a>Download <br>Audio Books</a>
+                <a  style="color: white; font-size: 0.85rem;">Amazon Music</a>
+                <a>Strem millions of <br>songs</a>
+            </ul>
+
+             <ul>
+                <a style="color: white; font-size: 0.85rem;">IMDb</a>
+                <a>Movies,TV <br>& Celebrities</a>
+            </ul>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
